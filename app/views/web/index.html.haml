@@ -1,4 +1,5 @@
 -@webs.each do |web|
 	.web
 		=link_to web.name, web.url
+		%iframe{:src => web.url, :scrolling => "no"}
 		%span= web.desc
