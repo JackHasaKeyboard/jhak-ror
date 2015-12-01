@@ -43,6 +43,12 @@ body {
 		display: block;
 		padding: 10px;
 	}
+	div {
+		padding: 0;
+	}
+	.ctrl {
+		height: calc(100% - 58px);
+	}
 }
 
 .web {
@@ -65,6 +71,10 @@ iframe {
 	margin-left: 170px;
 	* {
 		margin: 10px;
+	}
+	p {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
