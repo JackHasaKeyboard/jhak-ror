@@ -1,5 +1,6 @@
 -@webs.each do |web|
 	.web
-		=link_to web.name, web.url
-		%iframe{:src => web.url, :scrolling => "no"}
+		%a{href: web.url}
+			%span= web.name
+			= image_tag "web/#{web.name}.png"	
 		%span= web.desc

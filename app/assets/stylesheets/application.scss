@@ -56,9 +56,15 @@ body {
 }
 
 .web {
-	padding: 10px;
 	* {
 		display: block;
+	}
+	a {
+		margin: 0;
+		display: inline-block;
+	}
+	img {
+		height: 400px;
 	}
 }
 
