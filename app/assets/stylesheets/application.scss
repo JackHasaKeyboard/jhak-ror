@@ -32,6 +32,11 @@ body {
 	margin: 0;
 }
 
+#title {
+	display: block;
+	padding: 10px;
+}
+
 #nav {
 	display: inline-block;
 	height: 100%;
@@ -45,6 +50,9 @@ body {
 			display: block;
 			padding: 10px;
 		}
+	}
+	.sub {
+		margin-left: 16px;
 	}
 	.social {
 		* {
@@ -65,6 +73,13 @@ body {
 	}
 	img {
 		height: 400px;
+	}
+}
+
+.concept {
+	display: inline-block;
+	img {
+		height: 240px;
 	}
 }
 

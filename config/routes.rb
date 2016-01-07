@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  get 'source/index'
-
-  get 'models/index'
-
   root 'home#index'
+
+  get 'web/concepts', to: 'concepts#index'
+
   resources 'web'
   resources 'models'
   resources 'source'
+  resources 'concepts'
 end
