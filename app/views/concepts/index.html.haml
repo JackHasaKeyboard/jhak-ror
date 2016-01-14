@@ -1,4 +1,5 @@
 -@concepts.each do |concept|
 	.web.concept
-		%span= concept.name
-		= image_tag "web/concept/#{concept.name}.png"	
+		%a{href: concept.url}
+			%span= concept.name
+			= image_tag "web/concept/#{concept.name}.png"

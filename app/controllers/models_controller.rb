@@ -1,5 +1,5 @@
 class ModelsController < ApplicationController
   def index
-  	@models = Model.all.order("name ASC")
+	@models = Dir.glob("app/assets/images/models/*.png")
   end
 end
