@@ -1,4 +1,4 @@
 -@sources.each do |source|
     .img
-        %span= source.split('/').last.split('.')[0]
+        %span= source.split('/').last.rpartition('.')[0]
         = image_tag "source/#{source.split('/').last}"
