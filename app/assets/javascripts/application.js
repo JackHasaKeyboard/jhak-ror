@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+	$("img").click(function(){
+		var src = $(this).attr("src");
+		alert(src);
+
+		// $("#disp img").attr("src": src)
+	});
+
+});
