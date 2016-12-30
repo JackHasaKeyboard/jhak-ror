@@ -30,6 +30,7 @@ html, body {
 
 body {
 	margin: 0;
+	display: flex;
 }
 
 #title {
@@ -38,93 +39,88 @@ body {
 }
 
 #nav {
-	display: inline-block;
-	height: 100%;
-	float: left;
 	margin: 0;
 	padding: 10px;
+	display: flex;
+	flex-direction: column;
 	.ctrl {
-		height: calc(100% - 58px);
-		* {
-			margin: 0;
-			display: block;
-			padding: 10px;
-		}
-	}
-	.sub {
-		margin-left: 16px;
-	}
-	.social {
-		* {
-			padding: 10px;
-			display: inline-block;
-			float: left;
-		}
-	}
-}
+		margin-bottom: auto;
+						* {
+							margin: 0;
+							display: block;
+							padding: 10px;
+						}
+					}
+					.sub {
+						margin-left: 16px;
+					}
+					.social {
+						* {
+							padding: 10px;
+							display: inline-block;
+							float: left;
+						}
+					}
+				}
 
-.web {
-	* {
-		display: block;
-	}
-	a {
-		margin: 0;
-		display: inline-block;
-	}
-	img {
-		width: 800px;
-	}
-}
+				.web {
+					* {
+						display: block;
+					}
+					a {
+						margin: 0;
+						display: inline-block;
+					}
+					img {
+						width: 800px;
+					}
+				}
 
-iframe {
-    width: 100%;
-    transform: scale(0.6);
-    height: 600px;
-    border: 0;
-}
+				iframe {
+					width: 100%;
+					transform: scale(0.6);
+					height: 600px;
+					border: 0;
+				}
 
-.cont {
-	margin: 0;
-	display: inline-block;
-	margin-left: 170px;
-	* {
-		margin: 10px;
-	}
-	p {
-		margin-left: 0;
-		margin-right: 0;
-	}
-}
+				.cont {
+					overflow-y: scroll;
+					margin: 0;
+					display: inline-block;
+									 * {
+										 margin: 10px;
+									 }
+									 p {
+										 margin-left: 0;
+										 margin-right: 0;
+									 }
+								 }
 
-#hello {
-	float: left;
-}
+								 #hello {
+									 float: left;
+								 }
 
-#nav {
-	position: fixed;
-}
+								 .img {
+									 display: inline-block;
+									 cursor: pointer;
+									 float: left;
+													* {
+														margin: 0;
+													}
+													span {
+														display: block;
+														padding-top: 10px;
+														padding-bottom: 10px;
+													}
+													img {
+														height: 160px;
+													}
+												}
 
-.img {
-	display: inline-block;
-	cursor: pointer;
-	float: left;
-	* {
-		margin: 0;
-	}
-	span {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	img {
-		height: 160px;
-	}
-}
-
-#disp {
-	margin-left: 0;
-	margin-right: 0;
-	img {
-		height: 400px;
-	}
-}
+												#disp {
+													margin-left: 0;
+													margin-right: 0;
+													img {
+														height: 400px;
+													}
+												}
