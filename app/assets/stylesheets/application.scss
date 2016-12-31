@@ -17,7 +17,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 
 * {
-	font-family: 'Ubuntu Mono';
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 a {
@@ -72,7 +72,7 @@ body {
 						display: inline-block;
 					}
 					img {
-						width: 800px;
+						max-width: 800px;
 					}
 				}
 
