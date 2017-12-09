@@ -1,14 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails_12factor', group: :production # necessary for heroku
-
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'erb2haml', '~> 0.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 0.21.0'
+gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

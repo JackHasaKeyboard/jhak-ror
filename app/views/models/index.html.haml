@@ -1,4 +1,4 @@
 -@models.each do |model|
     .img
-        %span= model.split('/').last.rpartition('.')[0]
+        %span= model.split('/').last.split('.')[0]
         = image_tag "models/#{model.split('/').last}"
