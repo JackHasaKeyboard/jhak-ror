@@ -1,7 +1,0 @@
-- @concepts.each do |concept|
-	%span.title= concept.name
-	- imgs = Dir.glob("app/assets/images/web/concept/#{concept.name}/*").each do |img|
-		- img.gsub!(/.*?(?=web)/im, "")
-		.web.concept
-			%a{href: concept.url}
-				= image_tag (img)
